@@ -1,0 +1,38 @@
+{
+  "name": "rocket",
+  "version": "1.0.0",
+  "description": "rocket assets",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MrMoonRocket",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.6.5",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "gulp-typescript": "^5.0.1",
+    "htmlhint": "^0.11.0",
+    "livereload": "^0.8.2",
+    "node-sass": "^4.12.0",
+    "stylelint": "^11.1.1",
+    "stylelint-config-sass-guidelines": "^6.1.0",
+    "typescript": "^3.6.4",
+    "yargs": "^14.2.0"
+  },
+  "dependencies": {
+    "chart.js": "^3.1.0",
+    "pretty-checkbox": "^3.0.3",
+    "sweetalert2": "^9.15.2"
+  }
+}

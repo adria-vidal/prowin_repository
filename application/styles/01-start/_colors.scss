@@ -1,0 +1,39 @@
+//colores principales
+$primary: #36b434;
+$secondary: #185d11;
+$black: #232629;
+
+//variantes oscuros de los colores principales
+
+$primary-dark: darken($primary,10%);
+$secondary-dark: darken($secondary,10%);
+
+//variantes claros de los colores principales
+
+$primary-light: lighten($primary,10%);
+$secondary-light: lighten($secondary,10%);
+
+.title{
+	color: $primary;
+	background-color: blue;
+}
+
+.subtitle
+{
+	background-color: #3a4048;
+}
+//Gradiente Background web
+.color-2 {
+	background: -webkit-linear-gradient(180deg, $black 10%, $primary-light 90%);
+	background:    -moz-linear-gradient(180deg, $black 10%, $primary-dark 90%);
+	background:     -ms-linear-gradient(180deg, $black 10%, $primary-dark 90%);
+	background:      -o-linear-gradient(180deg, $black 10%, $primary-dark 90%);
+	background:         linear-gradient(180deg, $black 10%, $primary-dark 90%);
+  }
+  .color-3 {
+	background: -webkit-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:    -moz-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:     -ms-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:      -o-linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+	background:         linear-gradient(90deg, #65997d 10%, #fccb6e 90%);
+  }

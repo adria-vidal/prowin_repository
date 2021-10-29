@@ -1,0 +1,23 @@
+.sec{
+	a{
+		text-decoration: none;
+	}
+	&:hover{
+		img{
+			transform: scale(1.10);
+		}
+	}
+}
+
+.zoom{
+	overflow:hidden
+	img{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		transition: transform 2s;
+	}
+
+}
+
+

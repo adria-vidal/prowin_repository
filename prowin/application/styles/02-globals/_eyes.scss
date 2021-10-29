@@ -1,0 +1,45 @@
+img {
+	max-width: 100%;
+  }
+  
+  .wrapper_eye {
+	  
+	  width: 100px;
+	  height: 100px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	position: relative;
+  }
+  
+
+  .eye {
+	--radians: 0rad;
+	--pupil-offset: 0px;
+	// border: 1px solid red
+	display: grid;
+	
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: #eee;
+	border-radius: 50%;
+	transform: rotate(var(--radians));
+	transition: transform 300ms cubic-bezier(.64,1.95,.64,1);
+  }
+  
+  #eye1 {
+	justify-self: end;
+  }
+	
+  .pupil {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: #111;
+	border-radius: 50%;
+	transform: translateX(calc(10px - var(--pupil-offset)));
+  }
